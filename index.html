@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharva Shelke - Data Analyst Portfolio</title>
+    <style>
+        /* Resetting some default styles */
+        ul, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            margin-top: 50px;
+            color: #5C6D70; /* Soft gray text */
+            background-color: #E8F0F2; /* Soft blue background */
+            background-image: url('https://drive.google.com/uc?export=view&id=1OTLojmuyzJtL1vT6jis3BXzPL6kOgb9s');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-blend-mode: soft-light;
+            position: relative;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            animation: fadeInDown 1s ease;
+            border-bottom: 2px solid #AABEC3; /* Soft gray border */
+        }
+
+        header img {
+            width: 150px;
+            border-radius: 50%;
+            animation: fadeInLeft 1s ease;
+            border: 2px solid #AABEC3; /* Soft gray border */
+        }
+
+        header div {
+            text-align: left;
+            animation: fadeInRight 1s ease;
+        }
+
+        h1, h2 {
+            color: #5C6D70; /* Soft gray text */
+            font-size: 2.5em;
+            animation: fadeInDown 1s ease;
+        }
+
+        button {
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #B1C5C9; /* Soft gray background */
+            border: 2px solid #AABEC3; /* Soft gray border */
+            color: #5C6D70; /* Soft gray text */
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            animation: fadeInUp 1s ease;
+        }
+
+        button:hover {
+            background-color: #E8F0F2; /* Soft blue background */
+            color: #5C6D70; /* Soft gray text */
+            transform: scale(1.1); /* Slightly enlarged */
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            transition: transform 0.3s;
+            animation: fadeIn 1s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 640px;
+            margin: auto;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .video-container::after {
+            content: '';
+            display: block;
+            padding-top: 56.25%;
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            animation: fadeIn 1s ease;
+        }
+
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://drive.google.com/uc?export=view&id=1igXspGl9gF599tn6mNESgmLbOYAB8zFH" alt="Profile Photo">
+        <div>
+            <h1>Atharva Shelke</h1>
+            <p>Email: atharvashelke1234@gmail.com</p>
+            <p>Mobile: +91-8623011047</p>
+            <!-- LinkedIn Profile Button -->
+<button onclick="window.open('https://www.linkedin.com/in/atharva-shelke2228')">LinkedIn Profile</button>
+<button onclick="window.open('https://github.com/aasuraK')">GITHUB Profile</button>
+
+        </div>
+    </header>
+    <h1>Welcome to My Data Analyst Portfolio</h1>
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Programming Languages: SQL, Python, Supervised learning, Unsupervised learning, Deep learning</li>
+            <li>Techniques: Logistic regression, Linear regression, ML Basics</li>
+            <li>Development Tools: Excel, AWS, PowerBI, ETL, DATA-piplines, warehousing</li>
+            <li>Libraries: SVM, NLTK, Seaborn, NumPy, Pytorch, Scikitlearn, Pandas, Matplotlib</li>
+            <li>Competitive Programming: 3 Codechef, Leetcode</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>AccioSat 2022 Scholarship test Rank 373</li>
+            <li>IIT Guwahati Technothlon Junior Squad AIR-56</li>
+            <li>Qualified Meta Global Hackathon - ID</li>
+            <li>Cleared AWS ML Fellowship DEEPRACE</li>
+        </ul>
+    </section>
+    
+<section id="powerbi-visualization's">
+    <h2>My PowerBI Visualization</h2>
+    <img src="https://drive.google.com/uc?export=view&id=13QbbOpgBPlC8IrE61LXi1PCjgOc0QHzh" alt="PowerBI Visualization 1" style="max-width: 100%; height: auto;">
+    <img src="https://drive.google.com/uc?export=view&id=165mTJx48N7-tiSBEB2Cww4615-jhs1b6" alt="PowerBI Visualization 2" style="max-width: 100%; height: auto;">
+</section>
+    <!-- My Certificates Section -->
+<section id="certificates">
+    <h2>My Certificates</h2>
+    <button onclick="window.open('https://drive.google.com/file/d/102WLloJ4WVj3PjQ3KkomkKGNSfjlDFmg/view?usp=drive_link')">A.I Certification [INFOSYS]</button>
+    <button onclick="window.open('https://drive.google.com/file/d/1VaEoA4_M_4dluFWUUaI-MuvrbCCWzvmd/view?usp=drive_link')">Python Programmer [INFOSYS]</button>
+    <button onclick="window.open('https://drive.google.com/file/d/1BTE1PBHJjp_ll3plnEQPEaqIKT3C06Zz/view?usp=drive_link')">ML in Decision Maker [AWS]</button>
+    <button onclick="window.open('https://drive.google.com/file/d/1c86nOwzEH5q9WfVn0OLyT2pP4d5FYU96/view?usp=drive_link')">AI-DL-ML [AWS]</button>
+    <button onclick="window.open('https://drive.google.com/file/d/1PEV3N95CbsHr1Ej2zk8BoJimBoLf7Ghd/view?usp=drive_link')">DATA SCIENCE</button>
+    <button onclick="window.open('https://drive.google.com/file/d/1Qp-da0ncheAOr-F9-SLuZUyhfpJgzk2r/view?usp=drive_link')">Python for DataScience[IBM]</button>
+</section>
+    
+
+    <!-- EDA Links -->
+    <button onclick="window.open('https://colab.research.google.com/drive/1q5iv6riYiHuOLoDzPsqavCd9wKawK5VM?usp=sharing')">EDA Notebook 1</button>
+    <button onclick="window.open('https://colab.research.google.com/drive/105iSIRZTrqXHE_zrlheBGPGHdWrZ9kWP?usp=sharing')">EDA Notebook 2</button>
+
+    <!-- Reinforcement Learning Project -->
+    <h2>This is one of my Reinforcement learning model project</h2>
+    <img src="https://drive.google.com/uc?export=view&id=1m6e5y1aSVMZB0Lja0GpeEZ9-p25iDWXo" alt="Reinforcement Learning Image 1">
+    <img src="https://drive.google.com/uc?export=view&id=13N9uTqEcXkyJLTjsvv_n3Vy5GRH3Scvm" alt="Reinforcement Learning Image 2">
+<br></br>
+
+<!-- Additional Images -->
+<h2>Additional Works</h2>
+<img src="https://drive.google.com/uc?export=view&id=1gv9vJ6X-DqofgOlNTByrC8IL2106Qvx3" alt="Additional Work 1" style="max-width: 100%; height: auto;">
+<img src="https://drive.google.com/uc?export=view&id=1yYBCzKZQeXOfCXG5pl_pssWgnsBKedvU" alt="Additional Work 2" style="max-width: 100%; height: auto;">
+
+</body>
+
+</html>
+   
